@@ -131,19 +131,19 @@ console.log("");
 
 console.log("=== FALSY DAN TRUTHY VALUES ===");
 
-let falsyValues = [false, 0, -0, 0n, '', null, undefined, NaN];
-let truthyValues = [true, 1, -1, 'hello', ' ', [], {}, function(){}];
+// let falsyValues = [false, 0, -0, 0n, '', null, undefined, NaN];
+// let truthyValues = [true, 1, -1, 'hello', ' ', [], {}, function(){}];
 
-console.log("Falsy values (yang dianggap false):");
-falsyValues.forEach(value => {
-    console.log(`${JSON.stringify(value)}: ${Boolean(value)}`);
-});
+// console.log("Falsy values (yang dianggap false):");
+// falsyValues.forEach(value => {
+//     console.log(`${JSON.stringify(value)}: ${Boolean(value)}`);
+// });
 
-console.log("\nTruthy values (yang dianggap true):");
-truthyValues.forEach(value => {
-    console.log(`${typeof value === 'function' ? 'function(){}' : JSON.stringify(value)}: ${Boolean(value)}`);
-});
-console.log("");
+// console.log("\nTruthy values (yang dianggap true):");
+// truthyValues.forEach(value => {
+//     console.log(`${typeof value === 'function' ? 'function(){}' : JSON.stringify(value)}: ${Boolean(value)}`);
+// });
+// console.log("");
 
 // ==========================================
 // COMPARISON DAN TYPE COERCION
